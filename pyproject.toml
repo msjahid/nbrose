@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nbrose"
+version = "0.1.0"
+description = "Convert Jupyter notebooks to beautiful HTML with the Rosé Pine dark theme"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "Jahid Hasan", email = "msjahid.ai@gmail.com" }
+]
+keywords = [
+  "jupyter", "notebook", "html", "converter",
+  "rose-pine", "theme", "syntax-highlighting"
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Software Development :: Documentation",
+  "Topic :: Text Processing :: Markup :: HTML",
+]
+requires-python = ">=3.8"
+dependencies = []          # zero dependencies — pure stdlib
+
+[project.urls]
+Homepage      = "https://github.com/msjahid/nbrose"
+Repository    = "https://github.com/msjahid/nbrose"
+Documentation = "https://github.com/msjahid/nbrose#readme"
+"Bug Tracker" = "https://github.com/msjahid/nbrose/issues"
+
+[project.scripts]
+nbrose = "nbrose.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nbrose*"]
