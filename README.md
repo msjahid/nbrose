@@ -5,6 +5,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/nbrose?color=c4a7e7&labelColor=191724)](https://pypi.org/project/nbrose/)
 [![Python](https://img.shields.io/pypi/pyversions/nbrose?color=9ccfd8&labelColor=191724)](https://pypi.org/project/nbrose/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-eb6f92?labelColor=191724)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-nbrose-c4a7e7?labelColor=191724)](https://pypi.org/project/nbrose/)
 
 ---
 
@@ -26,6 +27,8 @@
 ```bash
 pip install nbrose
 ```
+
+> 🔗 PyPI page: [https://pypi.org/project/nbrose/](https://pypi.org/project/nbrose/)
 
 ---
 
@@ -129,5 +132,5 @@ MIT © [Jahid Hasan](https://github.com/msjahid)
 ---
 
 <p align="center">
-  Maintained with ❤ by <a href="https://github.com/msjahid">CodeX</a>
+  Maintained with ❤ by <a href="https://github.com/msjahid">𝓂𝓈𝒿𝒶𝒽𝒾𝒹</a>
 </p>
