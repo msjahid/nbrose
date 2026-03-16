@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nbrose"
-version = "0.1.0"
+version = "0.0.1"
 description = "Convert Jupyter notebooks to beautiful HTML with the Rosé Pine dark theme"
 readme = "README.md"
 license = { text = "MIT" }
